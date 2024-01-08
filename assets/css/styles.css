@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,500;1,600&family=Open+Sans&display=swap');
+
+/* Aplicar as fontes ao corpo do documento ou a um seletor específico */
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700; /* Especificar o peso da fonte conforme necessário */
+  }
+  
+  /* Exemplo de aplicação da fonte Montserrat em um cabeçalho (h1) */
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700; /* Especificar o peso da fonte conforme necessário */
+  }
+  .custom-badge {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 23vh;
+    margin-bottom: 5px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    }
+    
+    .custom-badge-success {
+      background: #198754; /* Green background for available */
+      color: #fff;
+    }
+    
+    .custom-badge-danger {
+      background: #dc3545; /* Red background for unavailable */
+      color: #fff;
+    }
+
+    .disabled-link {
+      pointer-events: none;
+      opacity: 0.5; /* Adjust the opacity to visually indicate that the link is disabled */
+    }
